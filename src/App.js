@@ -67,7 +67,7 @@ export default class App extends Component {
           <Route exact path="/Issues/:id" render={(props) => <IssueDetails {...props} {...this.state} />}/>
 
 
-          <Route exact path="/Dashboard"></Route>
+          <Route exact path="/Dashboard"><Dashboard/></Route>
           {/* <Navbar /> */}
           <Route path="/users">
             {/* <NewUser /> */}
