@@ -10,6 +10,7 @@ export default function ProductList() {
   
   const [data, setData] = useState(issueRows);
 
+  console.log(data, "data")
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
   };
